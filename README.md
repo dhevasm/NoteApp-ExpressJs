@@ -1,23 +1,21 @@
 Note App 
 - Simple CRUD Rest api for training
 
-Stack :
-- Node Js
-- Express Js
-- PostgreSQL
-
-Route : 
+Routes : 
 - GET /notes
 - GET /notes/:id
 - POST /notes => body(JSON) {"title": "title", "content" : "content"}
 - PUT /notes/:id => body{JSON) {"title": "title", "content" : "content"}
 - DELETE /notes/:id
 
-Dependencies : 
+Dependencies :
+- Express Js
 - Prisma ORM
 - Nodemon
 - Dotenv
 - CORS
+
+Database : PostgreSQL
 
 Credentials:
 .env :

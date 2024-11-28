@@ -7,11 +7,11 @@ Stack :
 - PostgreSQL
 
 Route : 
-GET /notes
-GET /notes/:id
-POST /notes => body(JSON) {"title": "title", "content" : "content"}
-PUT /notes/:id => body{JSON) {"title": "title", "content" : "content"}
-DELETE /notes/:id
+- GET /notes
+- GET /notes/:id
+- POST /notes => body(JSON) {"title": "title", "content" : "content"}
+- PUT /notes/:id => body{JSON) {"title": "title", "content" : "content"}
+- DELETE /notes/:id
 
 Dependencies : 
 - Prisma ORM
@@ -21,5 +21,5 @@ Dependencies :
 
 Credentials:
 .env :
-DATABASE_URL=postgresql://{username}:{password}@localhost:5432/db-notes
-PORT=3000
+- DATABASE_URL=postgresql://{username}:{password}@localhost:5432/db-notes
+- PORT=3000
